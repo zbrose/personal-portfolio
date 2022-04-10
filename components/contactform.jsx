@@ -38,7 +38,7 @@ function ContactForm() {
 
   return (
     <div>
-        <form>
+        <form onSubmit={(e)=>{handleSubmit(e)}}>
         
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" onChange={e=>setName(e.target.value)} required />
@@ -51,7 +51,7 @@ function ContactForm() {
           <label htmlFor="message">Message:</label>
           <textarea id="message" onChange={e=>setMessage(e.target.value)} required />
         
-          <input type="submit" onClick={(e)=>{handleSubmit(e)}} />
+          <input className ='input-button' type="submit" />
       </form>
     </div>
   );

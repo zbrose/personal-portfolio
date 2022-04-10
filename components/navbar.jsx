@@ -17,7 +17,6 @@ function Navbar() {
                     <Link href='/'><a className={router.pathname == "/" ? "active" : ""}>Home</a></Link>
                     <Link href='/projects'><a className={router.pathname == "/projects" ? "active" : ""}>Projects</a></Link>
                     <Link href='/contact'><a className={router.pathname == "/contact" ? "active" : ""}>Contact</a></Link>
-                    <a className='link' href='ZB-Resume-2022.pdf' download>Download Resume</a>
                 </div>
             </nav>
         </>

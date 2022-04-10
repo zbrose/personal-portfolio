@@ -11,11 +11,15 @@ body {
   --tan-color: rgb(253,243,229);
 }
 
+.container{
+  margin: 20px;
+}
+
 
 a:link, a:visited {
   border: 10x solid black;
   color: black;
-  padding: 14px 25px;
+  padding: 14px 15px;
   margin: 10px;
   display: inline-block;
   border-radius: 25px;
@@ -33,21 +37,47 @@ a:hover, a:active {
   box-sizing: border-box;
 }
 
-
 nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px 0 50px 0;
+  margin: 20px auto 50px;
   font-size: 20px;
+  max-width: 1500px;
 }
 
 form {
    display: flex;
    flex-direction:column;
-   justify-content:space-evenly;
    margin: 0 auto;
-   max-width: 400px;
+   max-width: 300px;
+}
+
+input{
+  margin: 10px 0;
+  height: 30px;
+}
+
+.input-button{
+  background-color: var(--tan-color);
+  border-radius: 20px;
+  width: 100px;
+  margin: 20px auto 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input-button:hover{
+  background-color: black;
+  color: var(--tan-color);
+}
+
+textarea{
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 200px;
+  max-height: 600px;
 }
 
 footer{
@@ -67,25 +97,33 @@ footer{
   margin: 0;
 }
 
+.inline{
+  display: inline;
+}
+
 .aside{
   display: flex;
   justify-content: space-evenly;
-  margin: 5rem 0;
+  margin: 5rem auto;
+  max-width: 1500px;
 }
 
 .flex-box{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: left;
+  margin: 20px auto;
 }
 
 .small-container{
   max-width: 600px;
+  margin: 0 20px;
 }
 
 .link{
   border: 1px solid black;
   text-decoration: none;
+  font-size: 12px;
 }
 .link:hover{
   text-decoration: none;
@@ -93,6 +131,56 @@ footer{
   color: var(--tan-color)
 }
 
-@media (max-width: 600){
+.img-wrapper{
+  margin: 0 10px;
+}
+
+@media (max-width: 1000px){
+  nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    text-align: center;
+  }
+/* 
+  a:link, a:visited {
+    border: 10x solid black;
+    color: black;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 10px 5px;
+    font-size: 15px;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+  } */
+
+  .aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem 0;
+    text-align: center;
+    margin: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  .img-wrapper {
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+  }
+
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+  }
 
 }
