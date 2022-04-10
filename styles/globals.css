@@ -187,4 +187,8 @@ footer{
     padding: 10px;
     margin: 0 5px;
   }
+
+  .input-button{
+    color: black;
+  }
 }
