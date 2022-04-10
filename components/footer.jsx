@@ -7,7 +7,7 @@ function Footer() {
             <a 
             target='_blank'
             rel="noreferrer"
-            href="'https://www.linkedin.com/in/zach-brose-668a9891/'">
+            href="https://www.linkedin.com/in/zach-brose-668a9891/">
             <Image 
             src='/images/linked.png'
             alt='linked in logo'
