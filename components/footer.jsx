@@ -39,6 +39,7 @@ function Footer() {
             </a>
             <a 
             target='_blank'
+            rel="noreferrer"
             href='https://zachbrose.bandcamp.com/'>
             <Image 
             src='/images/bandcamp.png'
