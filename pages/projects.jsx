@@ -7,7 +7,7 @@ function Projects() {
             <section>
                 <div className="aside">
                     <Image src='/images/party-people.png' alt="image of party people app" 
-                        width={500} height={300}
+                        width={600} height={300}
                     />
                     <div className="small-container">
                         <h2>The Party People App</h2>
@@ -17,20 +17,25 @@ function Projects() {
                             <Image src='/images/javascript.png' alt='the javascript logo' width={50} height={50}/>
                             <Image src='/images/html5.png' alt='the html 5 logo' width={50} height={50}/>
                             <Image src='/images/css3.png' alt='the css3 logo' width={50} height={50}/>
+                            <Image src='/images/bootstrap.png' alt='the bootstrap logo' width={50} height={50}/>
                             <Image src='/images/node-js.png' alt='the node js logo' width={50} height={50}/>
                             <Image src='/images/express.png' alt='the express logo' width={50} height={50}/>
                             <Image src='/images/mongodb (1).png' alt='the mongodb logo' width={50} height={50}/>
                             <Image src='/images/react.png' alt='the react logo' width={50} height={50}/>
                         </div>
-                        <a href="https://github.com/zbrose/party-people-client">Git Repository: Client </a>
-                        <a href="https://github.com/zbrose/party-people-server-1">Git Repository: Server</a>
-                        <a href="https://party-people-app.netlify.app/">Deployed Project</a>
+                        <div>
+
+                            <h4>Project Links:</h4>
+                            <a className="link" href="https://party-people-app.netlify.app/">Deployed Project</a>
+                            <a className="link" href="https://github.com/zbrose/party-people-client">Git Repository: Client </a>
+                            <a className="link" href="https://github.com/zbrose/party-people-server-1">Git Repository: Server</a>
+                        </div>
                     </div>
 
                 </div>
                 <div className="aside">
                     <Image src='/images/side-side.png' alt="image of party people app" 
-                        width={500} height={300}
+                        width={600} height={300}
                     />
                     <div className="small-container">
                         <h2>Side-Side: Virtual Record Collection</h2> 
@@ -40,17 +45,22 @@ function Projects() {
                             <Image src='/images/javascript.png' alt='the javascript logo' width={50} height={50}/>
                             <Image src='/images/html5.png' alt='the html 5 logo' width={50} height={50}/>
                             <Image src='/images/css3.png' alt='the css3 logo' width={50} height={50}/>
+                            <Image src='/images/bootstrap.png' alt='the bootstrap logo' width={50} height={50}/>
                             <Image src='/images/node-js.png' alt='the node js logo' width={50} height={50}/>
                             <Image src='/images/postgresql.png' alt='the postgres logo' width={50} height={50}/>
                             <Image src='/images/express.png' alt='the express logo' width={50} height={50}/>
                         </div>
-                        <a href="https://side-side.herokuapp.com/">Deployed Project</a>
-                        <a href="https://github.com/zbrose/unit-2-project">Git Repository</a>
+                        <div>
+                            <h4>Project Links:</h4>
+                            <a className="link" href="https://side-side.herokuapp.com/">Deployed Project</a>
+                            <a className="link" href="https://github.com/zbrose/unit-2-project">Git Repository</a>
+
+                        </div>
                     </div>
                 </div>
                 <div className="aside">
                     <Image src='/images/song-birds-finished.png' alt="image of party people app" 
-                        width={500} height={300}
+                        width={600} height={300}
                     />
                     <div className="small-container">
                         <h2>Song-Birds</h2> 
@@ -62,8 +72,9 @@ function Projects() {
                             <Image src='/images/css3.png' alt='the css3 logo' width={50} height={50}/>
                         </div>
                         <div>
-                            <a href="https://zbrose.github.io/sei-projectone-song-birds/">Deployed Project</a>
-                            <a href="https://github.com/zbrose/sei-projectone-song-birds">Git Repository</a>
+                            <h4>Project Links:</h4>
+                            <a className="link" href="https://zbrose.github.io/sei-projectone-song-birds/">Deployed Project</a>
+                            <a className="link" href="https://github.com/zbrose/sei-projectone-song-birds">Git Repository</a>
                         </div>
                     </div>
                 </div>
