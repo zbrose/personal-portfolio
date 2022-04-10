@@ -6,6 +6,7 @@ function Footer() {
         <footer>
             <a 
             target='_blank'
+            rel="noreferrer"
             href="'https://www.linkedin.com/in/zach-brose-668a9891/'">
             <Image 
             src='/images/linked.png'
@@ -16,6 +17,7 @@ function Footer() {
             </a>
             <a 
             target='_blank'
+            rel="noreferrer"
             href='https://github.com/zbrose'>
             <Image 
             src='/images/github.png'
@@ -26,6 +28,7 @@ function Footer() {
             </a>
             <a 
             target='_blank'
+            rel="noreferrer"
             href='https://open.spotify.com/artist/3Tnf72o3WrwrwvNJ1GKsrN?si=hReAyObMRhiB-GT_twU7PQ'>
             <Image 
             src='/images/spotify.png'

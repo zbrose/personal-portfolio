@@ -14,7 +14,7 @@ function Projects() {
                     </div> 
                     <div className="small-container">
                         <h2 className="subheader">The Party People App</h2>
-                        <p>Party people is an app designed with the gathering in mind. Want to find out where the latest ragers, raves or LAN parties are happening? We got you! Sign-up and create a free acount to start viewing events. Heck, maybe you even want to throw a party of your own. The limit is as high as you can get your hands! Let's Party!</p>
+                        <p>Party people is an app designed with the gathering in mind. Want to find out where the latest ragers, raves or LAN parties are happening? We got you! Sign-up and create a free acount to start viewing events. Heck, maybe you even want to throw a party of your own. The limit is as high as you can get your hands! Let&apos;s Party!</p>
                         <h4>Tech Used:</h4>
                         <div className="flex-box">
                             <div className="img-wrapper"><Image src='/images/javascript.png' alt='the javascript logo' width={50} height={50}/></div>
@@ -27,9 +27,9 @@ function Projects() {
                             <div className="img-wrapper"><Image src='/images/react.png' alt='the react logo' width={50} height={50}/></div>
                         </div>
                         <div>
-                            <a className="link" href="https://party-people-app.netlify.app/">Deployed Project</a>
-                            <a className="link" href="https://github.com/zbrose/party-people-client">Git Repository: Client </a>
-                            <a className="link" href="https://github.com/zbrose/party-people-server-1">Git Repository: Server</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://party-people-app.netlify.app/">Deployed Project</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/party-people-client">Git Repository: Client </a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/party-people-server-1">Git Repository: Server</a>
                         </div>
                     </div>
 
@@ -56,8 +56,8 @@ function Projects() {
                             <div className="img-wrapper"><Image src='/images/express.png' alt='the express logo' width={50} height={50}/></div>
                         </div>
                         <div>
-                            <a className="link" href="https://side-side.herokuapp.com/">Deployed Project</a>
-                            <a className="link" href="https://github.com/zbrose/unit-2-project">Git Repository</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://side-side.herokuapp.com/">Deployed Project</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/unit-2-project">Git Repository</a>
 
                         </div>
                     </div>
@@ -71,7 +71,7 @@ function Projects() {
                     </div>
                     <div className="small-container">
                         <h2 className="subheader">Song-Birds</h2> 
-                        <p>Song Birds is an educational music game that helps you improve your ear for melodies. The player is able to control five birds, each one assigned a single musical note that sounds when you select a bird at the bottom of the screen. The object of the game is to listen to a playback of a melody and match the melody using your birds' beautiful singing voices and your own ears.</p>
+                        <p>Song Birds is an educational music game that helps you improve your ear for melodies. The player is able to control five birds, each one assigned a single musical note that sounds when you select a bird at the bottom of the screen. The object of the game is to listen to a playback of a melody and match the melody using your birds&apos; beautiful singing voices and your own ears.</p>
                         <h4>Tech Used:</h4>
                         <div className="flex-box">
                             <div className="img-wrapper"><Image src='/images/javascript.png' alt='the javascript logo' width={50} height={50}/></div>
@@ -79,8 +79,8 @@ function Projects() {
                             <div className="img-wrapper"><Image src='/images/css3.png' alt='the css3 logo' width={50} height={50}/></div>
                         </div>
                         <div>
-                            <a className="link" href="https://zbrose.github.io/sei-projectone-song-birds/">Deployed Project</a>
-                            <a className="link" href="https://github.com/zbrose/sei-projectone-song-birds">Git Repository</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://zbrose.github.io/sei-projectone-song-birds/">Deployed Project</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/sei-projectone-song-birds">Git Repository</a>
                         </div>
                     </div>
                 </div>

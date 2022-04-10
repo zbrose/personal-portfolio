@@ -3,7 +3,7 @@ function ThankYou() {
 
         <div style={{textAlign: 'center'}}>
             <h1>Thank You!</h1>
-            <h3>I'll get back to you within 24 hours.</h3>
+            <h3>I&apos;ll get back to you within 24 hours.</h3>
         </div>
       );
 }
