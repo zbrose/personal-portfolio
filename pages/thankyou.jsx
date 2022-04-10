@@ -1,8 +1,9 @@
 function ThankYou() {
     return (
 
-        <div>
-            <h1 style={{textAlign: 'center'}}>Thank You! I'll get back to within 48 hours!</h1>
+        <div style={{textAlign: 'center'}}>
+            <h1>Thank You!</h1>
+            <h3>I'll get back to you within 24 hours.</h3>
         </div>
       );
 }

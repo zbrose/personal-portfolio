@@ -1,35 +1,60 @@
 import React, { useState } from "react";
+import { useRouter } from 'next/router'
 
 function ContactForm() {
+  const router = useRouter()
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [submitted, setSubmitted] = useState(false) 
 
-    const handleSubmit = async (e) => {
-        e.preventDefault()
-        const data = {
-            name: e.target.name,
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log('sending message')
 
-        }
-        console.log(e)
-    }
+    let data = {name, email, message}
 
-    return (
-        <div>
-            <form onSubmit={handleSubmit}>
-           
-              <label htmlFor="name">Name:</label>
-              <input type="text" id="name" required />
-            
-           
-              <label htmlFor="email">Email:</label>
-              <input type="email" id="email" required />
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    }).then(response=>{
+      if(response.status === 200){
+        console.log('response received')
+        setSubmitted(true)
+        setName('')
+        setEmail('')
+        setMessage('') 
+        router.push('/thankyou')
+      }
+    })
+    .catch(error=>{
+      console.log(error)
+    })
+  }
+
+  return (
+    <div>
+        <form>
+        
+          <label htmlFor="name">Name:</label>
+          <input type="text" id="name" onChange={e=>setName(e.target.value)} required />
       
-           
-              <label htmlFor="message">Message:</label>
-              <textarea id="message" required />
-           
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-      );
+        
+          <label htmlFor="email">Email:</label>
+          <input type="email" id="email" onChange={e=>setEmail(e.target.value)} required />
+  
+        
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" onChange={e=>setMessage(e.target.value)} required />
+        
+          <input type="submit" onClick={(e)=>{handleSubmit(e)}} />
+      </form>
+    </div>
+  );
 }
 
 export default ContactForm;
