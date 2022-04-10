@@ -8,8 +8,7 @@ function Projects() {
                 <div className="aside">
                     <div>
                         <Image src='/images/party-people.png' alt="image of party people app" 
-                            width={500} height={300}
-                            layout='fixed' 
+                            width={500} height={300} 
                     />
                     </div> 
                     <div className="small-container">
@@ -38,8 +37,7 @@ function Projects() {
                     <div>
 
                         <Image src='/images/side-side.png' alt="image of party people app" 
-                            width={500} height={300}
-                            layout='fixed' 
+                            width={500} height={300} 
                         />
                     </div>
                     <div className="small-container">
@@ -65,8 +63,7 @@ function Projects() {
                 <div className="aside">
                     <div>
                         <Image src='/images/song-birds-finished.png' alt="image of party people app" 
-                            width={500} height={300}
-                            layout='fixed' 
+                            width={500} height={300} 
                         />
                     </div>
                     <div className="small-container">

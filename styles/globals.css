@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(253,243,229);
-  
 }
 
 :root{
@@ -64,6 +63,7 @@ input{
   width: 100px;
   margin: 20px auto 50px;
   font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
 }
 
 .input-button:hover{
@@ -142,32 +142,30 @@ footer{
     font-size: 15px;
     text-align: center;
   }
-/* 
+  p {
+    font-size: 13px;
+  }
+
+  .main-img{
+    width: 200px;
+    height: 200px;
+  }
+
   a:link, a:visited {
-    border: 10x solid black;
     color: black;
     display: inline-block;
+    margin: 3px 5px;
     border-radius: 25px;
     text-decoration: none;
-    padding: 5px 15px;
-    margin: 10px 5px;
-    font-size: 15px;
   }
-  a:hover, a:active {
-    text-decoration: underline;
-  } */
 
   .aside{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 5rem 0;
     text-align: center;
-    margin: 20px;
-  }
-  p {
-    font-size: 12px;
+    margin: 20px 5px;
   }
 
   .img-wrapper {
@@ -182,5 +180,11 @@ footer{
     justify-content: center;
     margin: 20px auto;
   }
-
+  .link{
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+    margin: 0 5px;
+  }
 }

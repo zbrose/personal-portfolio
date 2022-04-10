@@ -15,7 +15,6 @@ export default function Home() {
           <Image 
             src='/images/zach.jpeg'
             alt='a pic of zach brose'
-            layout="fixed"
             width={500}
             height={500}
           />
