@@ -11,13 +11,14 @@ export default function Home() {
 
       <section className='aside'>
         <div className='small-container'>
-          <Image 
-            src='/images/zach.jpeg'
-            alt='a pic of zach brose'
-            width={500}
-            height={500}
-            layout='fixed'
-          />
+          <div className='profile-pic-wrapper'>
+            <Image
+              src='/images/zach.jpeg'
+              alt='a pic of zach brose'
+              width={500}
+              height={500}
+            />   
+          </div>
         </div>
         <div className='small-container'>
             <h1>About Me</h1>
