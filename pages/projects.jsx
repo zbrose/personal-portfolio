@@ -81,6 +81,26 @@ function Projects() {
                         </div>
                     </div>
                 </div>
+                <div className="aside">
+                    <div>
+                        <Image src='/images/Petit-ami-artwork.png' alt="image of petit ami app" 
+                            width={500} height={300} 
+                        />
+                    </div>
+                    <div className="small-container">
+                        <h2 className="subheader">Petit Ami</h2> 
+                        <p>Petit Ami is an iOS real-time pocket monster app created in Xcode using Swift. Users are able to adopt therir very own Ami companion which they can feed, play mini games with, and evolve</p>
+                        <h4>Tech Used:</h4>
+                        <div className="flex-box">
+                            <div className="img-wrapper"><Image src='/images/swift.png' alt='the swift logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/mongodb (1).png' alt='the mongoDb logo logo' width={50} height={50}/></div>
+                        </div>
+                        <div>
+                            <a className="link" href="#">Deployment Coming Soon!</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/petit-ami-upstream">Git Repository</a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
         

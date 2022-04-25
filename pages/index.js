@@ -16,6 +16,7 @@ export default function Home() {
             alt='a pic of zach brose'
             width={500}
             height={500}
+            layout='fixed'
           />
         </div>
         <div className='small-container'>
@@ -24,18 +25,19 @@ export default function Home() {
             <p>As a musician, I&apos;ve learned to adapt to whatever a situation throws at me while collaborating with others to bring projects to life. I bring the same adaptability and team-oriented skill-set into software engineering where I strive to find creative and efficient solutions to complex problems.  I am passionate about creating products that are accessible, innovative and impactful in our daily lives.</p>
           <h1>Technologies</h1>
           <div className='flex-box'>
-            <div className='img-wrapper'><Image src='/images/javascript.png' alt='the javascript logo' width={80} height={80}/></div>
-            <div className='img-wrapper'> <Image src='/images/python.png' alt='the python logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/html5.png' alt='the html 5 logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/css3.png' alt='the css3 logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/node-js.png' alt='the node js logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/react.png' alt='the react logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/express.png' alt='the express logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/mongodb (1).png' alt='the mongodb logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/postgresql.png' alt='the postgres logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/nextjs.png' alt='the next js logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/github.png' alt='the github logo' width={80} height={80}/></div>
-            <div className='img-wrapper'><Image src='/images/bootstrap.png' alt='the bootstrap logo' width={80} height={80}/></div>
+            <div className='img-wrapper'><Image src='/images/javascript.png' alt='the javascript logo' width={60} height={60}/></div>
+            <div className='img-wrapper'> <Image src='/images/python.png' alt='the python logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/html5.png' alt='the html 5 logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/css3.png' alt='the css3 logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/node-js.png' alt='the node js logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/react.png' alt='the react logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/express.png' alt='the express logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/mongodb (1).png' alt='the mongodb logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/postgresql.png' alt='the postgres logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/nextjs.png' alt='the next js logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/swift.png' alt='the swift logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/github.png' alt='the github logo' width={60} height={60}/></div>
+            <div className='img-wrapper'><Image src='/images/bootstrap.png' alt='the bootstrap logo' width={60} height={60}/></div>
           </div>
         </div>
       </section>

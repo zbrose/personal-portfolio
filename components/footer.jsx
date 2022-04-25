@@ -48,7 +48,7 @@ function Footer() {
             height={40}
             />
             </a>
-            <a className='link' href='ZB-Resume-2022.pdf' download>Download Resume</a>
+            <a className='link' href='Zach-Brose-Resume.pdf' download>Download Resume</a>
       </footer>
 
     );
