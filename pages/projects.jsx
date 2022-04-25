@@ -76,8 +76,8 @@ function Projects() {
                             <div className="img-wrapper"><Image src='/images/css3.png' alt='the css3 logo' width={50} height={50}/></div>
                         </div>
                         <div>
-                            <a target='_blank' rel="noreferrer" className="link" href="https://zbrose.github.io/sei-projectone-song-birds/">Deployed Project</a>
-                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/sei-projectone-song-birds">Git Repository</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://zbrose.github.io/song-birds/">Deployed Project</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/song-birds">Git Repository</a>
                         </div>
                     </div>
                 </div>
