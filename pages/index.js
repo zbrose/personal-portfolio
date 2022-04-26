@@ -13,9 +13,9 @@ export default function Home() {
         <div className='small-container'>
           <div className='profile-pic-wrapper'>
             <Image
-              src='/images/zach.jpeg'
+              src='/images/zach2.jpg'
               alt='a pic of zach brose'
-              width={500}
+              width={400}
               height={500}
             />   
           </div>
