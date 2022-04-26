@@ -144,6 +144,13 @@ footer{
     text-align: center;
     margin: 20px 5px;
   }
+
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+  }
 }
 
 @media (max-width: 750px){
@@ -172,7 +179,7 @@ footer{
 
   .small-container{
     max-width: 600px;
-    margin: 0;
+    margin: 0 0 40px 0;
   }
 
   .aside{
