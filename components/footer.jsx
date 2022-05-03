@@ -48,6 +48,17 @@ function Footer() {
             height={40}
             />
             </a>
+            <a 
+            target='_blank'
+            rel="noreferrer"
+            href='https://www.instagram.com/zach_brose/'>
+            <Image 
+            src='/images/instagram.png'
+            alt='bandcamp logo'
+            width={40}
+            height={40}
+            />
+            </a>
             <a className='link' href='Zach-Brose-Resume.pdf' download>Download Resume</a>
       </footer>
 
