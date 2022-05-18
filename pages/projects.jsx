@@ -13,7 +13,7 @@ function Projects() {
                     </div> 
                     <div className="small-container">
                         <h2 className="subheader">The Party People App</h2>
-                        <p>Party people is an app designed with the gathering in mind. Want to find out where the latest ragers, raves or LAN parties are happening? We got you! Sign-up and create a free acount to start viewing events. Heck, maybe you even want to throw a party of your own. The limit is as high as you can get your hands! Let&apos;s Party!</p>
+                        <p>Party people is an app designed with the gathering in mind.  A MERN Stack appplication that allows users to create events as well as find and attend other users events.  Users can upload event details with images using cloudinary and use geolocation to find where an event is happening.</p>
                         <h4>Tech Used:</h4>
                         <div className="flex-box">
                             <div className="img-wrapper"><Image src='/images/javascript.png' alt='the javascript logo' width={50} height={50}/></div>
