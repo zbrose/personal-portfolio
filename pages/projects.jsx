@@ -12,7 +12,7 @@ function Projects() {
                     />
                     </div> 
                     <div className="small-container">
-                        <h2 className="subheader">Whos Shows</h2>
+                        <h2 className="subheader">Whos Show</h2>
                         <p>Whos Shows is a simple MERN stack application created for users to share concerts and events in one place.  I created this application because I wanted one location to find local events shared by friends of mine without the bloat of social media.  Instead of scrolling past an advertisement, a cat picture and a meme, my friends and I can find and upload shows with each other directly. </p>
                         <h4>Tech Used:</h4>
                         <div className="flex-box">
