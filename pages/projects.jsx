@@ -7,6 +7,33 @@ function Projects() {
             <section>
                 <div className="aside">
                     <div>
+                        <Image src='/images/whosshows.png' alt="image of whos shows app" 
+                            width={500} height={300} 
+                    />
+                    </div> 
+                    <div className="small-container">
+                        <h2 className="subheader">Whos Shows</h2>
+                        <p>Whos Shows is a simple MERN stack application created for users to share concerts and events in one place.  I created this application because I wanted one location to find local events shared by friends of mine without the bloat of social media.  Instead of scrolling past an advertisement, a cat picture and a meme, my friends and I can find and upload shows with each other directly. </p>
+                        <h4>Tech Used:</h4>
+                        <div className="flex-box">
+                            <div className="img-wrapper"><Image src='/images/javascript.png' alt='the javascript logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/html5.png' alt='the html 5 logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/css3.png' alt='the css3 logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/node-js.png' alt='the node js logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/express.png' alt='the express logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/mongodb (1).png' alt='the mongodb logo' width={50} height={50}/></div>
+                            <div className="img-wrapper"><Image src='/images/react.png' alt='the react logo' width={50} height={50}/></div>
+                        </div>
+                        <div>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://62b64b4ff345050678b44cd2--friendly-trifle-312cf7.netlify.app">Deployed Project</a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/LA-client">Git Repository: Client </a>
+                            <a target='_blank' rel="noreferrer" className="link" href="https://github.com/zbrose/whosshow-server">Git Repository: Server</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="aside">
+                    <div>
                         <Image src='/images/party-people.png' alt="image of party people app" 
                             width={500} height={300} 
                     />
