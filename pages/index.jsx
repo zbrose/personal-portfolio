@@ -7,9 +7,9 @@ export default function Home(props) {
 
   const {images} = props;
 
-  const renderImages = images.map(image => {
+  const renderImages = images.map((image, i) => {
     return (
-      <div className='img-wrapper'>
+      <div className='img-wrapper' key={i}>
         <Image 
           src={`/icons/${image}`}  
           alt={image} 
