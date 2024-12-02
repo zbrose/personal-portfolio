@@ -7,7 +7,7 @@ function Footer() {
             <a 
             target='_blank'
             rel="noreferrer"
-            href="https://www.linkedin.com/in/zach-brose-668a9891/">
+            href="https://www.linkedin.com/in/zachary-manning-brose-668a9891/">
             <Image 
             src='/images/linked.png'
             alt='linked in logo'
@@ -26,40 +26,7 @@ function Footer() {
             height={40}
             />
             </a>
-            <a 
-            target='_blank'
-            rel="noreferrer"
-            href='https://open.spotify.com/artist/3Tnf72o3WrwrwvNJ1GKsrN?si=hReAyObMRhiB-GT_twU7PQ'>
-            <Image 
-            src='/images/spotify.png'
-            alt='spotify logo'
-            width={40}
-            height={40}
-            />
-            </a>
-            <a 
-            target='_blank'
-            rel="noreferrer"
-            href='https://zachbrose.bandcamp.com/'>
-            <Image 
-            src='/images/bandcamp.png'
-            alt='bandcamp logo'
-            width={40}
-            height={40}
-            />
-            </a>
-            <a 
-            target='_blank'
-            rel="noreferrer"
-            href='https://www.instagram.com/zach_brose/'>
-            <Image 
-            src='/images/instagram.png'
-            alt='bandcamp logo'
-            width={40}
-            height={40}
-            />
-            </a>
-            <a className='link' href='Zach-Brose-Resume.pdf' download>Download Resume</a>
+            <a className='link' href='ZMB-Resume.pdf' download>Download Resume</a>
       </footer>
 
     );

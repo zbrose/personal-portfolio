@@ -9,8 +9,8 @@ function Navbar() {
         <>
             <nav>
                 <div>
-                    <h1 className='header'>Zach Brose</h1>
-                    <h4 className='subheader'>Software Engineer | Musician</h4>
+                    <h1 className='header'>Zachary Manning-Brose</h1>
+                    <h4 className='subheader'>Software Engineer</h4>
                 </div>
                 <div></div>
                 <div>
