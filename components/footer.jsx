@@ -20,7 +20,7 @@ function Footer() {
             rel="noreferrer"
             href='https://github.com/zbrose'>
             <Image 
-            src='/images/github.png'
+            src='/icons/cgithub.png'
             alt='linked in logo'
             width={40}
             height={40}
