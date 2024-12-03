@@ -38,21 +38,7 @@ function ContactForm() {
 
   return (
     <div>
-        <form onSubmit={(e)=>{handleSubmit(e)}}>
-        
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" onChange={e=>setName(e.target.value)} required />
-      
-        
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" onChange={e=>setEmail(e.target.value)} required />
-  
-        
-          <label htmlFor="message">Message:</label>
-          <textarea id="message" onChange={e=>setMessage(e.target.value)} required />
-        
-          <input className ='input-button' type="submit" />
-      </form>
+      <h3>zacharymanningbrose@gmail.com</h3>
     </div>
   );
 }
