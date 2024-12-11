@@ -1,0 +1,14 @@
+.aside {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5rem auto;
+	max-width: 1500px;
+}
+
+.flex-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	gap: 1rem;
+	margin: 1rem;
+}

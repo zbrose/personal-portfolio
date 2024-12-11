@@ -1,0 +1,29 @@
+a:link,
+a:visited {
+	border: 10x solid black;
+	color: black;
+	padding: 14px 15px;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 25px;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+}
+.active {
+	font-weight: bold;
+}
+
+.link {
+	border: 1px solid black;
+	text-decoration: none;
+	font-size: 12px;
+}
+.link:hover {
+	text-decoration: none;
+	background-color: black;
+	color: var(--tan-color);
+}
