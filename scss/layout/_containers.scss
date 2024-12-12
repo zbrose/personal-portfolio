@@ -1,20 +1,18 @@
+@use '../abstracts/mq' as *;
+
 .small-container {
 	max-width: 600px;
-	margin: 0 0 20px 0;
-}
-
-.img-wrapper {
-	display: flex;
+	min-width: 300px;
 }
 
 // mq
-.small-container {
-	max-width: 600px;
-	margin: 0 0 20px 0;
-}
+// .small-container {
+// 	max-width: 600px;
+// 	margin: 0 0 20px 0;
+// }
 
-.img-wrapper {
-	width: 40px;
-	height: 40px;
-	margin: 1px;
-}
+// .img-wrapper {
+// 	width: 40px;
+// 	height: 40px;
+// 	margin: 1px;
+// }
