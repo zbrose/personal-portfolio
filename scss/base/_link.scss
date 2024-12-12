@@ -25,5 +25,22 @@ a:active {
 .link:hover {
 	text-decoration: none;
 	background-color: black;
-	color: var(--tan-color);
+	color: white;
 }
+
+// a:link,
+// a:visited {
+// 	color: black;
+// 	display: inline-block;
+// 	margin: 3px 5px;
+// 	border-radius: 25px;
+// 	text-decoration: none;
+// }
+
+// .link {
+// 	border: 1px solid black;
+// 	text-decoration: none;
+// 	font-size: 10px;
+// 	padding: 10px;
+// 	margin: 0 5px;
+// }

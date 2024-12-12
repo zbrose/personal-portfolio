@@ -18,8 +18,9 @@ export default function Home({ images }: any) {
 					<Image
 						src="/images/zach2.jpg"
 						alt="a pic of zach brose"
-						width={500}
-						height={625}
+						fill
+						sizes="600px"
+						priority
 					/>
 				</div>
 			</div>

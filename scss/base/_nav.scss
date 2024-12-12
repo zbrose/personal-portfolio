@@ -1,8 +1,13 @@
+@use '../abstracts/mq' as *;
+
 nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	margin: 20px auto 50px;
-	font-size: 20px;
-	max-width: 1500px;
+	flex-direction: column;
+	text-align: center;
+	margin: 1rem;
+	// @include max-device('phone') {
+
+	// }
 }
