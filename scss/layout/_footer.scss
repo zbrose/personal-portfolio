@@ -1,6 +1,14 @@
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+	background-color: white;
+	border-top: 1px solid black;
 }

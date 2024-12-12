@@ -6,7 +6,7 @@ export default function Home({ images }: any) {
 	const renderImages = images.map((image, i) => {
 		return (
 			<div className="img-wrapper" key={i}>
-				<Image src={`/icons/${image}`} alt={image} width={60} height={60} />
+				<Image src={`/icons/${image}`} alt={image} width={40} height={40} />
 			</div>
 		);
 	});
