@@ -5,7 +5,7 @@
 	width: 600px;
 	height: 905px;
 
-	@include max-device('large-desktop') {
+	@include max-device('tablet') {
 		display: none;
 	}
 }
