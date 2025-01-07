@@ -10,21 +10,23 @@ function Footer() {
 				rel="noreferrer"
 				href="https://www.linkedin.com/in/zachary-manning-brose-668a9891/"
 			>
-				<Image
+				{/* <Image
 					src="/images/linked.png"
 					alt="linked in logo"
 					width={40}
 					height={40}
-				/>
+				/> */}
+				Github
 			</Link>
 
 			<Link target="_blank" rel="noreferrer" href="https://github.com/zbrose">
-				<Image
+				{/* <Image
 					src="/icons/cgithub.png"
 					alt="linked in logo"
 					width={40}
 					height={40}
-				/>
+				/> */}
+				LinkedIn
 			</Link>
 
 			<Link className="link" href="ZMB-Resume.pdf" download>

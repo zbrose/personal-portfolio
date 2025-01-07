@@ -1,12 +1,6 @@
-import { Inter, Nunito, Quicksand } from 'next/font/google';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import '../scss/styles.scss';
-
-const inter = Nunito({
-	subsets: ['latin'],
-	display: 'swap',
-});
 
 export default function RootLayout({
 	children,
@@ -14,7 +8,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={inter.className}>
+		<html lang="en">
 			<body>
 				<Navbar />
 				<main>{children}</main>

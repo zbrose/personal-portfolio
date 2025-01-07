@@ -1,31 +1,25 @@
 'use client';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
 function Navbar() {
-	const router = useRouter();
+	const pathname = usePathname();
 	return (
 		<>
 			<nav>
 				<div>
 					<h1 className="header">Zachary Manning-Brose</h1>
-					<h4 className="subheader">Software Engineer</h4>
+					{/* <h4 className="subheader">Software Engineer</h4> */}
 				</div>
 				<div></div>
 				<div>
-					<Link href="/" className={router.pathname == '/' ? 'active' : ''}>
+					<Link href="/" className={pathname == '/' ? 'active' : ''}>
 						Home
 					</Link>
-					<Link
-						href="/projects"
-						className={router.pathname == '/projects' ? 'active' : ''}
-					>
+					<Link href="/projects" className={pathname == '/projects' ? 'active' : ''}>
 						Projects
 					</Link>
-					<Link
-						href="/contact"
-						className={router.pathname == '/contact' ? 'active' : ''}
-					>
+					<Link href="/contact" className={pathname == '/contact' ? 'active' : ''}>
 						Contact
 					</Link>
 				</div>

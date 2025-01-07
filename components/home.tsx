@@ -1,5 +1,4 @@
 'use client';
-import Head from 'next/head';
 import Image from 'next/image';
 
 export default function Home({ images }: any) {
@@ -16,16 +15,16 @@ export default function Home({ images }: any) {
 			<div className="small-container">
 				<div className="profile-pic-wrapper">
 					<Image
-						src="/images/zach2.jpg"
+						src="/images/zach3.jpeg"
 						alt="a pic of zach brose"
 						fill
-						sizes="600px"
+						sizes="2074px"
 						priority
 					/>
 				</div>
 			</div>
 			<div className="small-container">
-				<h1 style={{ marginTop: '0px' }}>Hello!</h1>
+				<h1 style={{ marginTop: '0px' }}>About me</h1>
 
 				<p>
 					I&#39;m a frontend engineer specializing in scalable enterprise
@@ -56,7 +55,7 @@ export default function Home({ images }: any) {
 					adaptable and self-motivated, always eager to tackle new challenges.
 				</p>
 
-				<h1>Technologies</h1>
+				<h1>Skills</h1>
 				<div className="flex-box">{renderImages}</div>
 			</div>
 		</section>

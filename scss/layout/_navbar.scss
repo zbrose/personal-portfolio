@@ -1,6 +1,12 @@
+@use '../abstracts/mq' as *;
+
 .header {
 	font-size: 50px;
 	margin: 10px 0;
+
+	@include max-device('large-desktop') {
+		font-size: 2.5rem;
+	}
 }
 
 .subheader {
