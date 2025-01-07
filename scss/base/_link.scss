@@ -29,3 +29,8 @@ a:hover::before,
 a.active::before {
 	transform: scaleX(1);
 }
+
+.project-link {
+	padding: 0;
+	margin: 0;
+}
