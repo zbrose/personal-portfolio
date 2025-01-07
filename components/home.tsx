@@ -23,7 +23,7 @@ export default function Home({ images }: any) {
 					/>
 				</div>
 			</div>
-			<div className="small-container">
+			<div style={{ paddingBottom: '5rem' }}>
 				<h1 style={{ marginTop: '0px' }}>About me</h1>
 
 				<p>
