@@ -13,7 +13,7 @@ export default function Home({ images }: any) {
 	return (
 		<section className="aside">
 			<div className="small-container">
-				{/* <div className="profile-pic-wrapper">
+				<div className="profile-pic-wrapper">
 					<Image
 						src="/images/zach3.jpeg"
 						alt="a pic of zach brose"
@@ -21,7 +21,7 @@ export default function Home({ images }: any) {
 						sizes="2074px"
 						priority
 					/>
-				</div> */}
+				</div>
 			</div>
 			<div style={{ paddingBottom: '5rem' }}>
 				<h1 style={{ marginTop: '0px' }}>About me</h1>
