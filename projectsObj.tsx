@@ -5,9 +5,7 @@ export const projects = [
 		title: 'Personal Music Website',
 		description:
 			'A website displaying my past music projects.  Developed using Next.js and styled using SCSS.  A great place to find out what I work on the side, complete with links to my bandcamp, spotify, and social media pages where you can follow along on my music journey! ',
-		links: [
-			'https://62b64b4ff345050678b44cd2--friendly-trifle-312cf7.netlify.app/',
-		],
+		links: ['https://zachbrose.com'],
 		tech: ['Next.js', 'SCSS'],
 	},
 	{
