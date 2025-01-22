@@ -14,6 +14,8 @@
 		position: relative;
 		width: 500px;
 		height: 350px;
+		border: 1px solid black;
+		box-shadow: 10px 10px 13px grey;
 		@include max-device('large-desktop') {
 			width: 400px;
 			height: 250px;

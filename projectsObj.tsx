@@ -1,5 +1,16 @@
 export const projects = [
 	{
+		id: 6,
+		image: 'music-website.png',
+		title: 'Personal Music Website',
+		description:
+			'A website displaying my past music projects.  Developed using Next.js and styled using SCSS.  A great place to find out what I work on the side, complete with links to my bandcamp, spotify, and social media pages where you can follow along on my music journey! ',
+		links: [
+			'https://62b64b4ff345050678b44cd2--friendly-trifle-312cf7.netlify.app/',
+		],
+		tech: ['Next.js', 'SCSS'],
+	},
+	{
 		id: 5,
 		image: 'whosshows.png',
 		title: "Who's Show (2022)",
@@ -25,18 +36,18 @@ export const projects = [
 		],
 		tech: ['React', 'Express', 'MongoDb', 'CSS'],
 	},
-	{
-		id: 3,
-		image: 'side-side.png',
-		title: 'Side by Side (2022)',
-		description:
-			'Side-Side is a music database and organization app in which a user can get information on recordings by artist name, record title, or song title using the Discogs Api. Users may view an albums information such as credits and track listing. Users are also able to bookmark and categorize records, adding them to a want-list or their growing collection.',
-		links: [
-			'https://side-side.herokuapp.com/',
-			'https://github.com/zbrose/side-side',
-		],
-		tech: ['JavaScript', 'Express', 'CSS', 'HTML', 'PostgreSQL'],
-	},
+	// {
+	// 	id: 3,
+	// 	image: 'side-side.png',
+	// 	title: 'Side by Side (2022)',
+	// 	description:
+	// 		'Side-Side is a music database and organization app in which a user can get information on recordings by artist name, record title, or song title using the Discogs Api. Users may view an albums information such as credits and track listing. Users are also able to bookmark and categorize records, adding them to a want-list or their growing collection.',
+	// 	links: [
+	// 		'https://side-side.herokuapp.com/',
+	// 		'https://github.com/zbrose/side-side',
+	// 	],
+	// 	tech: ['JavaScript', 'Express', 'CSS', 'HTML', 'PostgreSQL'],
+	// },
 	{
 		id: 2,
 		image: 'song-birds-finished.png',
@@ -49,13 +60,13 @@ export const projects = [
 		],
 		tech: ['JavaScript', 'HTML', 'CSS'],
 	},
-	{
-		id: 1,
-		image: 'Petit-ami-artwork.png',
-		title: 'Petit Ami (2022)',
-		description:
-			'Petit Ami is an iOS real-time pocket monster app created in Xcode using Swift. Users are able to adopt therir very own Ami companion which they can feed, play mini games with, and evolve',
-		links: ['', 'https://github.com/zbrose/petit-ami-upstream'],
-		tech: ['Swift', 'MongoDb'],
-	},
+	// {
+	// 	id: 1,
+	// 	image: 'Petit-ami-artwork.png',
+	// 	title: 'Petit Ami (2022)',
+	// 	description:
+	// 		'Petit Ami is an iOS real-time pocket monster app created in Xcode using Swift. Users are able to adopt therir very own Ami companion which they can feed, play mini games with, and evolve',
+	// 	links: ['', 'https://github.com/zbrose/petit-ami-upstream'],
+	// 	tech: ['Swift', 'MongoDb'],
+	// },
 ];
