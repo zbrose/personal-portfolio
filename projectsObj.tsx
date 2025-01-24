@@ -11,11 +11,11 @@ export const projects = [
 	{
 		id: 5,
 		image: 'whosshows.png',
-		title: "Who's Show (2022)",
+		title: 'SoCal Show Cal (2022)',
 		description:
-			'Whos Shows is a simple MERN stack application created for users to share concerts and events in one place. I created this application because I wanted one location to find local events shared by friends of mine without the bloat of social media. Instead of scrolling past an advertisement, a cat picture and a meme, my friends and I can find and upload shows with each other directly.',
+			'SoCal Show Cal is a simple MERN stack application created for users to share concerts and events in one place. I created this application because I wanted one location to find local events shared by friends of mine without the bloat of social media. Instead of scrolling past an advertisement, a cat picture and a meme, my friends and I can find and upload shows with each other directly.',
 		links: [
-			'https://62b64b4ff345050678b44cd2--friendly-trifle-312cf7.netlify.app/',
+			'https://socalshowcal.netlify.app/',
 			'https://github.com/zbrose/LA-client',
 			'https://github.com/zbrose/whosshow-server',
 		],

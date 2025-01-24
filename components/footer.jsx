@@ -17,7 +17,7 @@ function Footer() {
 				Github
 			</Link>
 
-			<Link className="link" href="ZMB-Resume.pdf" download>
+			<Link className="link" href="zmb-tech-resume.pdf" download>
 				Download Resume
 			</Link>
 		</footer>
