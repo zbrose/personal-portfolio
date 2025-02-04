@@ -81,11 +81,21 @@ export default function Home({ images }: any) {
 						</ul>
 					</div>
 					<div>
+						<h4>database</h4>
+						<ul>
+							<li>sql</li>
+							<li>postgresql</li>
+							<li>mongodb</li>
+							<li>mongoose ODM</li>
+						</ul>
+					</div>
+					<div>
 						<h4>tools & methodologies</h4>
 						<ul>
 							<li>git</li>
 							<li>storybook/ladle</li>
 							<li>jira/azure devops</li>
+							<li>postico/pgAdmin</li>
 							<li>agile</li>
 							<li>ci/cd</li>
 						</ul>
