@@ -9,18 +9,24 @@ function Navbar() {
 			<nav>
 				<div>
 					<h1 className="header">Zachary Manning-Brose</h1>
-					{/* <h4 className="subheader">Software Engineer</h4> */}
 				</div>
 				<div></div>
 				<div>
 					<Link href="/" className={pathname == '/' ? 'active' : ''}>
-						Home
+						home
 					</Link>
 					<Link href="/projects" className={pathname == '/projects' ? 'active' : ''}>
-						Projects
+						code
 					</Link>
+					{/* <Link
+						href="https://www.zachbrose.com"
+						target="_blank"
+						className={pathname == '/music' ? 'active' : ''}
+					>
+						music
+					</Link> */}
 					<Link href="/contact" className={pathname == '/contact' ? 'active' : ''}>
-						Contact
+						contact
 					</Link>
 				</div>
 			</nav>

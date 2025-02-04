@@ -6,7 +6,7 @@ export const projects = [
 		description:
 			'A website displaying my past music projects.  Developed using Next.js and styled using SCSS.  A great place to find out what I work on the side, complete with links to my bandcamp, spotify, and social media pages where you can follow along on my music journey! ',
 		links: ['https://zachbrose.com'],
-		tech: ['Next.js', 'SCSS'],
+		tech: ['next.js', 'sass'],
 	},
 	{
 		id: 5,
@@ -19,21 +19,21 @@ export const projects = [
 			'https://github.com/zbrose/LA-client',
 			'https://github.com/zbrose/whosshow-server',
 		],
-		tech: ['React', 'Express', 'MongoDb', 'CSS'],
+		tech: ['react', 'express', 'mongodb', 'css'],
 	},
-	{
-		id: 4,
-		image: 'party-people.png',
-		title: 'Party People (2022)',
-		description:
-			'Party people is an app designed with the gathering in mind. A MERN Stack appplication that allows users to create events as well as find and attend other users events. Users can upload event details with images using cloudinary and use geolocation to find where an event is happening.',
-		links: [
-			'https://party-people-app.netlify.app/',
-			'https://github.com/zbrose/party-people-client',
-			'https://github.com/zbrose/party-people-server-1',
-		],
-		tech: ['React', 'Express', 'MongoDb', 'CSS'],
-	},
+	// {
+	// 	id: 4,
+	// 	image: 'party-people.png',
+	// 	title: 'Party People (2022)',
+	// 	description:
+	// 		'Party people is an app designed with the gathering in mind. A MERN Stack appplication that allows users to create events as well as find and attend other users events. Users can upload event details with images using cloudinary and use geolocation to find where an event is happening.',
+	// 	links: [
+	// 		'https://party-people-app.netlify.app/',
+	// 		'https://github.com/zbrose/party-people-client',
+	// 		'https://github.com/zbrose/party-people-server-1',
+	// 	],
+	// 	tech: ['react', 'express', 'mongodb', 'css'],
+	// },
 	// {
 	// 	id: 3,
 	// 	image: 'side-side.png',
@@ -56,7 +56,7 @@ export const projects = [
 			'https://zbrose.github.io/song-birds/',
 			'https://github.com/zbrose/song-birds',
 		],
-		tech: ['JavaScript', 'HTML', 'CSS'],
+		tech: ['javascript', 'html', 'css'],
 	},
 	// {
 	// 	id: 1,

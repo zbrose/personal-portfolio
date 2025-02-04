@@ -9,3 +9,12 @@
 		display: none;
 	}
 }
+
+.skills-box {
+	display: flex;
+	justify-content: space-evenly;
+
+	ul {
+		text-align: left;
+	}
+}

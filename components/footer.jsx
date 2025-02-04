@@ -10,15 +10,15 @@ function Footer() {
 				rel="noreferrer"
 				href="https://www.linkedin.com/in/zachary-manning-brose-668a9891/"
 			>
-				LinkedIn
+				linkedIn
 			</Link>
 
 			<Link target="_blank" rel="noreferrer" href="https://github.com/zbrose">
-				Github
+				github
 			</Link>
 
-			<Link className="link" href="zmb-tech-resume.pdf" download>
-				Download Resume
+			<Link className="link" href="zmb-resume.pdf" download>
+				download resume
 			</Link>
 		</footer>
 	);

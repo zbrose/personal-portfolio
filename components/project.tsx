@@ -34,7 +34,7 @@ function Project(props: Project) {
 					</Link>
 				</h2>
 				<p>{description}</p>
-				<h4>Tech Used:</h4>
+				<h4>tech used:</h4>
 				<ul className="tech-list">{techList}</ul>
 			</div>
 		</div>
