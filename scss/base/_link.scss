@@ -20,14 +20,14 @@ a::before {
 	top: 0;
 	left: 0;
 	background-color: #000;
-	transform: scaleX(0);
+	transform: scale(0);
 	transition: transform 0.1s ease;
 	z-index: -1;
 }
 
 a:hover::before,
 a.active::before {
-	transform: scaleX(1);
+	transform: scale(1.1, 1.2);
 }
 
 .project-link {
