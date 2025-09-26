@@ -17,9 +17,9 @@ function Footer() {
 				github
 			</Link>
 
-			<Link href="/zmb-resume.pdf" download aria-label="Download resume PDF">
+			<a href="/zmb-resume.pdf" download aria-label="Download resume PDF">
 				download resume
-			</Link>
+			</a>
 		</footer>
 	);
 }
