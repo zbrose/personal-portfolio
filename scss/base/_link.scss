@@ -34,3 +34,17 @@ a.active::before {
 	padding: 0;
 	margin: 0;
 }
+
+.resume-button {
+	background: none;
+	border: 1px solid black;
+	font-family: 'Futura', sans-serif;
+	color: rgb(68, 68, 68);
+	font-size: 16px;
+
+	&:hover {
+		color: white;
+		background-color: black;
+		cursor: pointer;
+	}
+}
