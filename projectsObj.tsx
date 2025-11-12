@@ -1,12 +1,10 @@
-import { deprecate } from 'util';
-
 export const projects = [
 	{
 		id: 7,
 		image: 'king-pari.png',
 		title: 'King Pari Webpage',
 		description:
-			'A super simple webpage I made for the band King Pari.  Links to their work and a mailing list service inlcuded.',
+			'A super simple webpage I made for the band King Pari.  Links to their work and a mailing list service included.',
 		links: ['https://kingparimusic.com'],
 		tech: ['javascript', 'css', 'html'],
 		active: false,
@@ -26,7 +24,7 @@ export const projects = [
 		image: 'whosshows.png',
 		title: 'SoCal Show Cal (2022)',
 		description:
-			'SoCal Show Cal is a simple MERN stack application created for users to share concerts and events in one place. I created this application because I wanted one location to find local events shared by friends of mine without the bloat of social media. Instead of scrolling past an advertisement, a cat picture and a meme, my friends and I can find and upload shows with each other directly.',
+			'SoCal Show Cal is a simple MERN stack application created for users to share concerts and events in one place. I created this application because I wanted one location to find local events shared by friends of mine without the bloat of social media.  This app is in active development as of 11/12/2025.',
 		links: [
 			'https://socalshowcal.netlify.app/',
 			'https://github.com/zbrose/LA-client',

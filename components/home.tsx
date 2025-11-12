@@ -27,7 +27,7 @@ export default function Home({ images }: any) {
 				<h1 style={{ marginTop: '0px' }}>about me</h1>
 				<hr />
 				<p>
-					I&#39;m a software developer specializing in UI modernizations,
+					I&#39;m a fullstack software developer specializing in UI modernizations,
 					optimizations, and reusable component libraries to elevate user experience
 					and application performance.
 				</p>
@@ -36,17 +36,8 @@ export default function Home({ images }: any) {
 					professional musician; performing, recording, and teaching. I&#39;m
 					interested in the intersection between technology and music, and building
 					communal platforms where musicians can share their work freely and be
-					compensated fairly. Having grown up with video games, I&#39;m also excited
-					about the idea of creating interactive multi-media experiences someday,
-					marrying aspects of my love for music with immersive worlds through code.
-				</p>
-				<p>
-					I&#39;m experienced in implementing designs using frontend frameworks and
-					building component libraries that help businesses streamline their
-					development practices. In my previous role as a software consultant, I was
-					often tasked with quickly learning new tools and technologies to provide
-					recommendations and develop long-lasting solutions. This fast-paced
-					environment has helped me become highly adaptable and self-motivated.
+					compensated fairly. I&#39;m passionate about building software and tools
+					that are purpose-driven, widely accessible, and sustainable.
 				</p>
 				<h1>skills</h1>
 				<hr />
